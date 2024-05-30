@@ -3,7 +3,13 @@ $(".postcard").hide();
 
 setInterval(function(){
     $("button").animate({backgroundColor: 'blue'}, "slow");
-    $("button").animate({backgroundColor: 'pink'}, "slow");
+}, 1000);
+
+setInterval(function(){
+    $("button").animate({backgroundColor: 'yellow'}, "slow");
+}, 1000);
+
+setInterval(function(){
     $("button").animate({backgroundColor: 'red'}, "slow");
 }, 1000);
 
