@@ -1,0 +1,25 @@
+div {
+    width: 80vw;
+    height: 75vh;
+    margin-top: 20px;
+    margin-left: 10vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 600px;
+    /* visibility: hidden; */
+}
+
+h1{
+    color: rgb(225, 127, 143);
+}
+
+button{
+    margin: 20px;
+    width: 200px;
+}
